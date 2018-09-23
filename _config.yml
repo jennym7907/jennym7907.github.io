@@ -1,6 +1,5 @@
 #Jekyll configuration
 name: Jenny Mata
-description: 
 url: "https://jennym7907.github.io"
 markdown: kramdown
 highlighter: rouge
