@@ -11,5 +11,5 @@ take down notes, I will most likely forget everything I was taught at the moment
 and I have been able to understand what we are learning and I feel that I am able to continue at the same pace Mr. Allatta is going at, at
 the moment. 
 
- <style>
+
       
