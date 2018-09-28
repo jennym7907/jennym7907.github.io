@@ -12,4 +12,14 @@ and I have been able to understand what we are learning and I feel that I am abl
 the moment. 
 
 
-      
+<style>
+       
+        h2 {
+            color: rgb(28, 128, 128);
+        }  
+        
+        body {
+            background-color: rgb(215, 196, 255);
+        }
+            
+        </style>      
