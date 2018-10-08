@@ -4,7 +4,7 @@ title: Jenny Mata, Weekly Reflection #2
 date: 2018-10-07
 ---
 
-This week in computer science I feel like I am going to go through some struggles in our next project (flag project)> I feel this way 
+This week in computer science I feel like I am going to go through some struggles in our next project (flag project) I feel this way 
 because I will have to learn how to imput images and connect basic shapes together to create one image out of pure code for my flag. 
 But other than that, this week we learned about how to use CSS to affect the style of our learning blogs. Which could be described as
 font, font-family, color, size etc. We also learned/researched about the components in the style of an HTML file. Such as 
