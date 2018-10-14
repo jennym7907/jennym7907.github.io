@@ -14,3 +14,16 @@ things by combining two minds together to solve any obstacles, which will be ver
 I felt that it was more of a challenge to do the pair programming as I am used to working on my own and solving problems by myself so it 
 was a but difficult to get accustomed to having help. But I did enjoy it as sometimes I am unable to solve a problem on my own and need
 someone's help.
+
+
+<style>
+       
+        h2 {
+            color: rgb(28, 128, 128);
+        }  
+        
+        body {
+            background-color: rgb(215, 196, 255);
+        }
+            
+        </style>      
