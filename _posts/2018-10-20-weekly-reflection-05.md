@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jenny Mata, Weekly Reflection #4
+title: Jenny Mata, Weekly Reflection #5
 date: 2018-10-20
 ---
 
@@ -10,3 +10,16 @@ one larger rectangle. Another challenge that I am still facing is trying to figu
 to be within the image I already coded. I plan to solve that challenge by using the knowledge I gained when trying to figure out how to 
 connect more than two images in one. And using that same thinking to put that image in my new coded image while using the function 
 bitmap/url that I had just learned. 
+
+
+<style>
+       
+        h2 {
+            color: rgb(28, 128, 128);
+        }  
+        
+        body {
+            background-color: rgb(215, 196, 255);
+        }
+            
+        </style>   
