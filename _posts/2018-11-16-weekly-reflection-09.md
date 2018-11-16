@@ -10,3 +10,15 @@ without a noun and a verb your sentence will both not be a sentence and not make
 The next day we then learned about the importance about thinking about how clarifying questions would make a model question to code much 
 more accurate, if given one. With the example of "A rocket blasts off. How could we model the situation? What else would you like to know?"
 This warm up allowed us to think about the types of questions we had to make this "model" we would create in this situaiton more accurate.
+
+<style>
+       
+        h2 {
+            color: rgb(28, 128, 128);
+        }  
+        
+        body {
+            background-color: rgb(215, 196, 255);
+        }
+            
+        </style>   
