@@ -18,7 +18,6 @@ class and since I don't know what we learned that day I don't know if I missed s
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
 
 * * *
 ![FlagVer2](/images/FlagVer2.png)
@@ -26,33 +25,75 @@ class and since I don't know what we learned that day I don't know if I missed s
 
 ## Describe your process.
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
 
-<!--- Delete this comment and add your writing -->
+My questions for my flag is how to scale the distance of the stars because I got stuck on doing the star's positions from eachother instead of just continuing with it. I struggled with this because I wanted my flag to be at it's best when scaled.I didn't have much of a strategy, I just went along with what I was doing. 
 
 
 ## Explain your code.
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
 
 * * *
 
 ```
-Insert 10-15 line code section here _then delete this instruction_
+(define WIDTH 570)
+(define LENGTH 300)
+(define WIDTH2 228)
+(define LENGTH2 159)
+(define BASE(rectangle WIDTH LENGTH "solid" "white"))
+(define old-glory-red(make-color 187 19 62))
+(define old-glory-blue(make-color 0 38 100))
+(define RS(rectangle WIDTH (/ 300 13) "solid" old-glory-red))
+(define BR(rectangle WIDTH2 LENGTH2 "solid" old-glory-blue))
+(define 1S(star 6 "solid" "white"))
+(define S(scale 1.7 1S))
 ```
 
 * * *
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
  
-<!--- Delete this comment and add your writing -->
-
+-  This program that I chose begins with the arguments defining the width and lengths of both the wntire flag and the blue rectangle of the US flag. Then going on to the colors needed for the US flag with and next with the size of the red stripes included in the US flag. The code I posted are the most significant to my program as it starts of the definitions of my program so I can be able to shorten my code as to repeeating the same numbers and code many times. This code works both independently and along with the rest of the program because of this reason. In order to prevent a lot of irrelevant repetitions of the same code. 
 
 ## Program code
 
 ```
-Insert entire program here _then delete this instruction_
+(define WIDTH 570)
+(define LENGTH 300)
+(define WIDTH2 228)
+(define LENGTH2 159)
+(define BASE(rectangle WIDTH LENGTH "solid" "white"))
+(define old-glory-red(make-color 187 19 62))
+(define old-glory-blue(make-color 0 38 100))
+(define RS(rectangle WIDTH (/ 300 13) "solid" old-glory-red))
+(define BR(rectangle WIDTH2 LENGTH2 "solid" old-glory-blue))
+;FOR THE POSITION OF RS SUBTRACT 42.6 EVERYTIME
+(define 1S(star 6 "solid" "white"))
+(define S(scale 1.7 1S))
+(define RSF1(put-image RS 285 287 BASE))
+
+(define RSF2(put-image RS 285 240.86(put-image RS 285 287 BASE)))
+
+(define RSF3(put-image RS 285 194.72(put-image RS 285 240.86(put-image RS 285 287 BASE))))
+
+(define RSF4(put-image RS 285 148.58 RSF3))
+(define RSF5(put-image RS 285 102.44 RSF4))
+(define RSF6(put-image RS 285 56.3 RSF5))
+(define RSF7(put-image RS 285 10.16 RSF6))
+(define Star1(put-image S 18 144 BR))
+(define Star2(put-image S 60 144 Star1))
+(define Star3(put-image S 102 144 Star2))
+(define Star4(put-image S 144 144 Star3))
+(define Star5(put-image S 186 144 Star4))
+(define Star6(put-image S 228 144 Star5))
+
+
+
+(define US-FLAG-IN-PROGRESS(put-image Star6 115 219 RSF7))
+US-FLAG-IN-PROGRESS
+
+;A= 1.0    B= 1.9 -> A= 10 B= 19   A * #  B * #
+; Number used A * 30 = 300  B * 30 = 570
+; A/13 -> 300/13 
+;6 white stripes (6 WS)
+;C= 0.53 D=0.76 --> C= 5.3 D=7.6
+
 ```
