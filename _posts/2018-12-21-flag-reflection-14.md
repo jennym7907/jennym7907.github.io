@@ -11,17 +11,17 @@ date: 2018-12-21
 -   I designed the flag of the United States 
 -   I'd expect a 3 as I did not incorparate some of the components Mr. Allatta was hoping for in my program. Such as 
 definition funtions and using a definition and having the computer do the math for me instead of me having to do it. I think 
-that I deserve this grade as I also struggled a little bit in making my flag and I'm guyessing it's because I missed a day of
+that I deserve this grade as I also struggled a little bit in making my flag and I'm guessing it's because I missed a day of
 class and since I don't know what we learned that day I don't know if I missed something important.
 
-<!--- Delete this comment and add your writing -->
+
 
 ## Current output
 
 -   Insert an image that your program currently produces. _then delete this instruction_
 
 * * *
-![Flag](/images/final-flag.png)
+![FlagVer2](/images/FlagVer2.png)
 * * *
 
 ## Describe your process.
